@@ -43,17 +43,51 @@ aa83988848 薗田光太郎
 
 ## ソースコードの説明
 
-あいうえお
+l.6: 平均を求める関数を定義
+
+l.7: 分散を求める関数を定義
+
+l.8: グローバル関数のNを宣言
+
+l.12: 各平均、分散をdouble型で宣言
+
+l.18: データファイル名を入力させ,fnameに格納
+
+l.19: 入力させた文字列の最後にエンターキーが入っているので,fnameの文字列の最後をヌル文字'\0'に置換
+
+l.20: fnameを確認
+
+l.22: fnameで指定したファイルの先頭アドレスをファイルポインタ fp に読み込む
+
+l.23: もしfpがNULLだったときは,ファイルを開けなかったので,即座にプログラム終了
+
+l.28: Nの初期値を0に設定
+
+l.30: ファイルを1行ずつbufに読み込む. もし読み込みに成功する限り以下を繰り返す
+
+l.31: bufからscanfで数値文字列を実数としてvalに読み込む
+
+l.33~35: 関数を宣言して平均や分散の値を求める
+
+l.38: ファイルを閉じる. 閉じれないときは, 即座にプログラム終了
+
+l.45~48: 求めた値を表示
+
+l.55~62: 平均を求める関数
+
+l.64~71: 分散を求める関数
+
+
 
 ## 入出力結果
 
 ```
 input the filename of sample:../sample/heights_male.csv
 the filename of sample: ../sample/heights_male.csv
-sample mean：
-sample variance：
-population mean (estimated)：
-population variance (estimated)：
+sample mean：173.888750
+sample variance：25.361711
+population mean (estimated)：173.888750
+population variance (estimated)：28.984813
 ```
 
 ## 修正履歴
