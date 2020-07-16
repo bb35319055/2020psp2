@@ -48,7 +48,7 @@ Which ID's data do you want? : 45313124
 No data
 ```
 
-,,,
+
 input the filename of sample height: ../sample/heights.csv
 input the filename of sample ID: ../sample/IDs.csv
 which ID's data do you want?: 45313002
@@ -56,16 +56,16 @@ which ID's data do you want?: 45313002
 ID :45313002
 gender :Male
 heights :183.87
-,,,
 
-,,,
+
+
 input the filename of sample heights:../sample/heights.csv
 input the filename of sample ID:../sample/IDs.csv
 which ID's data do you want?: 45313013
 -------
 NO data
 -------
-,,,
+
 
 ## 修正履歴
 
