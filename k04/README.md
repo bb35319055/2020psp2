@@ -12,6 +12,17 @@ aa83988848 薗田光太郎
 
 ## ソースコードの説明
 
+l5~9: 構造体の配列を宣言
+
+l46: ファイル内の性別の値を宣言したgenderに代入
+
+l47: ファイル内の身長の値を宣言したheightsに代入
+
+l60: ファイル内のIDの値を宣言したIDに代入
+
+l72~88: 入力したIDとファイルから格納したIDを比較して、存在すれば身長と性別を表示する.また,比較したときにIDが違うごとに変数nodata(初期値0)に1ずつ足していく
+
+l90~94: 上記の通りにしていくと、nodataは13または14になる.14になるということは,入力したIDがファイルから格納したIDが一度も一致しなかったということになるので"NO data"と表示する
 
 ## 入出力結果
 
@@ -36,6 +47,25 @@ Which ID's data do you want? : 45313124
 ---
 No data
 ```
+
+,,,
+input the filename of sample height: ../sample/heights.csv
+input the filename of sample ID: ../sample/IDs.csv
+which ID's data do you want?: 45313002
+---
+ID :45313002
+gender :Male
+heights :183.87
+,,,
+
+,,,
+input the filename of sample heights:../sample/heights.csv
+input the filename of sample ID:../sample/IDs.csv
+which ID's data do you want?: 45313013
+-------
+NO data
+-------
+,,,
 
 ## 修正履歴
 
