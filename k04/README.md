@@ -26,29 +26,8 @@ l90~94: 上記の通りにしていくと、nodataは13または14になる.14�
 
 ## 入出力結果
 
-例えば，ID 45313125のデータを調べたいとき，
 
 ```
-Input the filename of sample height : ../sample/heights.csv
-Input the filename of sample ID : ../sample/IDs.csv
-Which ID's data do you want? : 45313125
----
-ID : 45313125
-gender : Female
-height : 152.4
-```
-
-例えば，ID 45313124のデータを調べたいとき，
-
-```
-Input the filename of sample height : ../sample/heights.csv
-Input the filename of sample ID : ../sample/IDs.csv
-Which ID's data do you want? : 45313124
----
-No data
-```
-
-
 input the filename of sample height: ../sample/heights.csv
 input the filename of sample ID: ../sample/IDs.csv
 which ID's data do you want?: 45313002
@@ -56,17 +35,20 @@ which ID's data do you want?: 45313002
 ID :45313002
 gender :Male
 heights :183.87
+```
 
-
-
+```
 input the filename of sample heights:../sample/heights.csv
 input the filename of sample ID:../sample/IDs.csv
 which ID's data do you want?: 45313013
 -------
 NO data
 -------
-
+```
 
 ## 修正履歴
 [comment #20200721]
 - 修正の指示、アドバイス等は特にありません。引き続き先生に提出をお願いします。
+
+[comment #20200722 sonoda]
+- 課題4の完了を確認しました
